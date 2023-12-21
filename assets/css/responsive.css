@@ -1,0 +1,288 @@
+/* max-width: 320 sm mobail screen
+320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV. */
+
+@media screen and (min-width:1201px) {}
+
+
+@media screen and (min-width:1025px) and (max-width:1200px) {}
+
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .tstimonial_cs {
+        padding: 17px 17px;
+    }
+
+    .story_dish{
+        align-self: center;
+    }
+
+    .testimonial1 {
+        padding: 57px;
+    }
+
+
+    .recipe_text h3 {
+        font-size: 2rem;
+    }
+
+    .chill {
+        top: -160px;
+        left: -112px;
+    }
+
+    .nav-item {
+        padding: 0px;
+    }
+
+    .about_banner {
+        min-height: 32vh;
+    }
+
+    .footer_line::before {
+        content: "";
+        right: -71px;
+        height: 100px;
+    }
+
+    .strength::before {
+        content: "";
+        right: -72px;
+    }
+
+    .top_heding{
+        background: #ffffff8a;
+        padding: 1rem;
+        backdrop-filter: blur(7px);
+        border-radius: 15px;
+    }
+
+    .top_img {
+        position: absolute;
+        top: -24px;
+        left: 102px;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+}
+
+@media screen and (min-width:821px) and (max-width:912px) {}
+
+@media screen and (min-width:769px) and (max-width:820px) {}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    .chill {
+        left: -100px;
+    }
+
+    .footer_line::before {
+        content: "";
+        right: -54px;
+        height: 100px;
+    }
+
+    .about_banner {
+        min-height: 17vh;
+    }
+
+    .strength::before {
+        content: "";
+        right: -9px;
+    }
+
+    .card1{
+        text-align: center;
+    }
+
+    .top_heding{
+        background: #ffffff8a;
+        padding: 1rem;
+        backdrop-filter: blur(7px);
+        border-radius: 15px;
+    }
+
+    .top_img {
+        position: absolute;
+        top: -24px;
+        left: 102px;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .top_heding h1 {
+        font-size: 29px;
+    }
+
+    .top_heding p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .contact_detail {
+        position: static;
+    }
+
+    .about_heading h1 {
+        font-size: 34px;
+    }
+
+    .about_banner {
+        min-height: 7vh;
+    }
+
+    .blog_content {
+        padding-left: 17px;
+    }
+
+    .chill {
+        display: none;
+    }
+
+    .title h2 {
+        font-size: 2rem;
+    }
+
+    .today_font {
+        font-size: 1rem;
+    }
+
+    .tstimonial_cs {
+        padding: 10px;
+    }
+
+    .testimonial1 {
+        padding: 17px;
+    }
+    
+    .strength::before {
+        display: none;
+    }
+
+    .footer_line::before {
+        display: none;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .recipe_text h3 {
+        font-size: 1.5rem;
+    }
+    
+    .awards p {
+        font-size: 16px;
+    }
+
+    .card-img{
+        text-align: center;
+    }
+
+    .offerss {
+        padding: 22px;
+    }
+
+    .card1{
+        text-align: center;
+    }
+
+    .award_right {
+        padding-left: 0;
+    }
+
+    .top_heding{
+        background: #ffffff8a;
+        padding: 1rem;
+        backdrop-filter: blur(7px);
+        border-radius: 15px;
+    }
+
+    .top_img {
+        position: absolute;
+        top: -24px;
+        left: 102px;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .top_heding h1 {
+        font-size: 26px;
+    }
+
+    .top_heding p {
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+
+    .navbar-brand{
+        height: auto;
+        width: 200px;
+    }
+
+    .title h2 {
+        font-size: 1.5rem;
+    }
+
+    .offerss {
+        padding: 22px;
+    }
+
+    .about_bg {
+        padding: 10px;
+    }
+
+    .recipe_text h3 {
+        font-size: 1rem;
+    }
+
+    .card1{
+        text-align: center;
+    }
+
+    .award_right {
+        padding-left: 0;
+    }
+
+    .top_heding{
+        background: #ffffff8a;
+        padding: 1rem;
+        backdrop-filter: blur(7px);
+        border-radius: 15px;
+    }
+
+    .top_img {
+        position: absolute;
+        top: -24px;
+        left: 102px;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .top_heding h1 {
+        font-size: 19px;
+    }
+
+    .top_heding p {
+        font-size: 1rem;
+    }
+}
